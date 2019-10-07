@@ -36,7 +36,7 @@ g+geom_histogram()+labs(y= "Frequency")+labs(x = "Number of steps per day")+
 ## `stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
 ```
 
-![](Rep_Res_files/figure-html/unnamed-chunk-2-1.png)<!-- -->
+![](https://github.com/MisterCruz42/RepData_PeerAssessment1/blob/master/Hist1.jpeg)<!-- -->
 
 ```r
 Med <- median(Summy$steps)
@@ -66,7 +66,7 @@ h <- ggplot(Aver, aes(interval,steps))
 h + geom_line(col="lightskyblue4", size=1)+theme_bw()
 ```
 
-![](Rep_Res_files/figure-html/unnamed-chunk-3-1.png)<!-- -->
+![](https://github.com/MisterCruz42/RepData_PeerAssessment1/blob/master/Lin1.jpeg)<!-- -->
 
 ```r
 Aver$interval[Aver$steps==max(Aver$steps)]
@@ -109,7 +109,7 @@ i+geom_histogram()+labs(y= "Frequency")+labs(x = "Number of steps per day")+
 ## `stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
 ```
 
-![](Rep_Res_files/figure-html/unnamed-chunk-6-1.png)<!-- -->
+![](https://github.com/MisterCruz42/RepData_PeerAssessment1/blob/master/hist2.jpeg)<!-- -->
 
 Median and mean
 
@@ -152,6 +152,6 @@ j<- ggplot(Avg, aes(interval, steps))
 j+geom_line(col= "lightskyblue4")+labs(y= "Number of steps")+labs(x = "Interval")+facet_grid(vars(Avg$Wday)) 
 ```
 
-![](Rep_Res_files/figure-html/unnamed-chunk-9-1.png)<!-- -->
+![](https://github.com/MisterCruz42/RepData_PeerAssessment1/blob/master/line2.jpeg)<!-- -->
 
 
